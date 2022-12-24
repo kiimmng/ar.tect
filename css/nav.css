@@ -1,0 +1,90 @@
+.side-bar {
+    background-color: #153250;
+    width: 0;
+    height: 100vh;
+    padding-top: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    overflow-x: hidden;
+    transition: 0.5s;
+    text-align: center
+}
+.side-bar ul{    width: 100%;
+    line-height: 30px;
+    text-align: left;list-style:none}
+.side-bar ul li a {
+    width: 100%;
+    display: block;
+    color: #C3C9DE;
+    text-decoration: none;
+    padding: 8px 4px 10px 25px;
+    transition: all ease-in-out 0.5s;
+    font-weight: 500; 
+}
+
+.side-bar ul li a:hover{
+    color: #153250;
+    background-color: rgba(195, 201, 222, 1);
+}
+
+.close {
+    width: 20px;
+    height: 20px;
+    font-size: 25px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    text-align: center;
+    color: #C3C9DE;
+}
+
+#fullpage {
+    transition: margin-left .5s;
+
+}
+span .grid {
+    top: 4%;
+    left: 2%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 99
+}
+
+span .grid button {
+    width: 45%;
+    height: 45%;
+    background-color: #203b57;
+    border: none;
+    border-radius: 15%;
+}
+/*social-media*/
+.side-bar .social-media {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+    bottom: 3%
+  }
+  .side-bar .social-media a {
+    width: 45px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 0 7px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 32px;
+    background-color: rgba(195, 201, 222, 0.3);
+    color: #C3C9DE
+  }
+  .side-bar .social-media a:hover {
+    color: #153250;
+    background-color: rgba(195, 201, 222, 1)
+  }

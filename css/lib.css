@@ -1,0 +1,24 @@
+.mt-8 {
+    margin-top: 8px !important;
+  }
+  .mt-16 {
+    margin-top: 16px !important;
+  }
+  /* Row */
+  .row {
+    margin-top: 2vw;
+  }
+  .row::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .col { width: 100%;
+ display: flex; justify-content: space-between
+  }
+  .col-full {
+    width: 100%;
+  }
+  .col-half {
+    width: 49%;
+  }
